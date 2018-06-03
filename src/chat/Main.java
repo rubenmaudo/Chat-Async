@@ -60,13 +60,18 @@ public class Main extends javax.swing.JFrame {
 
         MainPanel.add(jScrollPane2);
 
+        jPanel3.setPreferredSize(new java.awt.Dimension(266, 40));
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.LINE_AXIS));
 
         jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane3.setToolTipText("");
+        jScrollPane3.setPreferredSize(new java.awt.Dimension(166, 40));
 
         jTextArea3.setColumns(20);
         jTextArea3.setLineWrap(true);
-        jTextArea3.setRows(5);
+        jTextArea3.setRows(3);
+        jTextArea3.setText("Escribe aqui tus mensajes");
+        jTextArea3.setToolTipText("");
         jTextArea3.setWrapStyleWord(true);
         jTextArea3.setHighlighter(null);
         jScrollPane3.setViewportView(jTextArea3);
