@@ -70,7 +70,7 @@ public class Main extends javax.swing.JFrame {
         jTextArea3.setColumns(20);
         jTextArea3.setLineWrap(true);
         jTextArea3.setRows(3);
-        jTextArea3.setText("Escribe aqui tus mensajes");
+        jTextArea3.setText("Escribe aqui tus mensajes ahi lo dejossssss dfgsddfg\n");
         jTextArea3.setToolTipText("");
         jTextArea3.setWrapStyleWord(true);
         jTextArea3.setHighlighter(null);
